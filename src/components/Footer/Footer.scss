@@ -11,6 +11,7 @@
 
     @media(max-width:1200px){
         width: 90%;
+        margin-top: 0px;
     }
     .footer-content{
         width: 100%;
@@ -49,36 +50,53 @@
 
         &#img1-mobile{
             max-height: 100px;
+            max-width: 100px;
             display: none;
         }
 
         &#img2{
             padding: 5px;
-            height: 90px;
-            width: 95px;
+            height: 50px;
+            width: 50px;
         }
         &#img3{
             border-radius: 50px;
             padding: 5px;
-            height: 90px;
-            width: 95px;
+            height: 50px;
+            width: 50px;
+        }
+        &#img3-mobile{
+            display: none;
         }
     }
 
     @media(max-width:650px){
         .footer-content{
             display: flex;
-            flex-direction: column;
+            flex-direction: row-reverse;
         }
 
         #img1{
             display: none;
         }
-        #img1-mobile{
-            display: block!important;
-            width: 200px;
+        
+        #img2{
+            margin-right: 15px;
         }
 
+        #img3{
+            display: none;
+        }
+
+        #img3-mobile{
+            margin-left: 15px;
+            display: block!important;
+            border-radius: 50px;
+            padding: 5px;
+            height: 50px;
+            width: 50px;
+        }
+        
         .text{
             margin-top: 15px;
             margin-bottom: 15px;

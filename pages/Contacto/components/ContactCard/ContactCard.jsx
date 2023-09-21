@@ -7,7 +7,7 @@ const ContactCard = (detail) => {
     <>
     <Card className="contactCard-wrapper">
       <Card.Title className="contactCard-title">{detail.title}</Card.Title>
-      <Card.Body>{detail.body}<br></br>
+      <Card.Body className="contactCard-body">{detail.body}<br></br>
       <a className="contactButton" href="https://wa.link/shc6yt"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1022px-WhatsApp.svg.png"></img>Contáctanos</a>
       </Card.Body>
     </Card>
