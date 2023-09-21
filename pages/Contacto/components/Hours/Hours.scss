@@ -1,0 +1,18 @@
+.hoursCard-wrapper{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    background-color: rgb(120, 0, 186);
+    align-content: center;
+    width: 90%;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+
+    .hoursCard-title{
+        font-size: 24px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    
+}

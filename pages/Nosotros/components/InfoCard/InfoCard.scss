@@ -1,0 +1,51 @@
+.infoCard-wrapper{
+    display: flex;
+    background-color: rgb(121, 0, 186);
+    margin-top:15px;
+    border-radius: 5px;
+    max-width: 1200px;
+    .infoCard-topside{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        background-image: url('./licenciadograsso.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        .overlay{
+            display: flex;
+            justify-content: center;
+            backdrop-filter: blur(5px);
+            width: 100%;
+            
+        }
+
+    }
+    .infoCard-content{
+        padding: 20px;
+        .infoCard-title{
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+
+            .subTitle{
+                opacity: .75;
+                font-size: 16px;
+            }
+            
+        }
+        .infoCard-text{
+            margin-top: 10px;
+            color: white;
+            
+        }
+    }
+
+    @media(max-width:850px){
+        flex-direction: column; 
+        align-items: center;
+        .infoCard-img{
+            max-width: max-content;
+            object-fit: cover;
+        }
+    }
+}

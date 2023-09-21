@@ -1,0 +1,37 @@
+.serviceElement-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  min-width: 250px;
+  color: white;
+  border-radius: 5px;
+  background-color: rgb(120, 0, 186);
+  transition: 0.15s;
+}
+.serviceElement-wrapper .serviceElement-body img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-bottom: -5px;
+  max-width: 250px;
+}
+.serviceElement-wrapper .serviceElement-body .serviceElement-title {
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  background-color: rgb(166, 0, 255);
+}
+.serviceElement-wrapper .serviceElement-body .serviceElement-text {
+  padding: 15px;
+  text-align: center;
+}
+@media (max-width: 650px) {
+  .serviceElement-wrapper .serviceElement-body {
+    align-items: center;
+  }
+}
+@media (min-width: 1000px) {
+  .serviceElement-wrapper:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.33);
+  }
+}/*# sourceMappingURL=ServiceElement.css.map */

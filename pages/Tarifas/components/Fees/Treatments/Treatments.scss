@@ -1,0 +1,52 @@
+.treatments-wrapper{
+    background-image: url(./terapia.jpg);   
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media(max-width:850px){
+        &{
+            background-position-x: -350px;
+        }
+    }
+    .overlay{
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.595);
+        margin-top: 10px;
+        border-radius: 5px;
+        color: white;
+
+        .treatments-title{
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            h1,h2{
+                margin: 10px;
+            }
+            margin-bottom: 5px;
+            hr{
+                width: 95%;
+                
+            }
+        }
+
+        .treatments-text{
+            padding: 20px;
+        }
+
+        .treatmentsList-desktop{
+            padding: 20px;
+            display: grid;
+            justify-items: center;
+            grid-template-columns: 3fr 3fr 3fr;
+            flex-direction: column;
+            
+            @media(max-width:1200px){
+                grid-template-columns: 2fr;
+            }
+        }
+    }
+}

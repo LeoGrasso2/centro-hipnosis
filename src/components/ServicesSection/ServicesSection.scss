@@ -1,0 +1,43 @@
+.services-wrapper{
+    .services-list{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 25px;
+        border-radius: 5px;
+        color: white;
+
+        .row{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 2em;
+            @media(max-width:1140px){
+                grid-template-columns: 1fr 1fr;
+                gap: 2em;
+            }
+            @media(max-width:570px){
+                grid-template-columns: 1fr;
+                gap: 2em;
+            }
+        }
+    }
+
+        .videoConference{
+            display: flex;
+            color: white;
+            margin-top: 15px;
+            border-radius: 5px;
+            flex-direction: column;
+            padding: 25px;
+            background-color: rgb(121, 0, 186);
+
+            .title{
+                text-align: center;
+                font-weight: bold;
+                font-size: 22px;
+            }
+
+            .text{
+                margin-bottom: 10px;
+            }
+        }
+    }

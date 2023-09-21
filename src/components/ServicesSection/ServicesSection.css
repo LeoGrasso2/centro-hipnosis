@@ -1,0 +1,41 @@
+.services-wrapper .services-list {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 25px;
+  border-radius: 5px;
+  color: white;
+}
+.services-wrapper .services-list .row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2em;
+}
+@media (max-width: 1140px) {
+  .services-wrapper .services-list .row {
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+  }
+}
+@media (max-width: 570px) {
+  .services-wrapper .services-list .row {
+    grid-template-columns: 1fr;
+    gap: 2em;
+  }
+}
+.services-wrapper .videoConference {
+  display: flex;
+  color: white;
+  margin-top: 15px;
+  border-radius: 5px;
+  flex-direction: column;
+  padding: 25px;
+  background-color: rgb(121, 0, 186);
+}
+.services-wrapper .videoConference .title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+}
+.services-wrapper .videoConference .text {
+  margin-bottom: 10px;
+}/*# sourceMappingURL=ServicesSection.css.map */

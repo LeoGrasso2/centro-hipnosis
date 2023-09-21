@@ -1,0 +1,47 @@
+.treatments-wrapper {
+  background-image: url(./terapia.jpg);
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width: 850px) {
+  .treatments-wrapper {
+    background-position-x: -350px;
+  }
+}
+.treatments-wrapper .overlay {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.595);
+  margin-top: 10px;
+  border-radius: 5px;
+  color: white;
+}
+.treatments-wrapper .overlay .treatments-title {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+.treatments-wrapper .overlay .treatments-title h1, .treatments-wrapper .overlay .treatments-title h2 {
+  margin: 10px;
+}
+.treatments-wrapper .overlay .treatments-title hr {
+  width: 95%;
+}
+.treatments-wrapper .overlay .treatments-text {
+  padding: 20px;
+}
+.treatments-wrapper .overlay .treatmentsList-desktop {
+  padding: 20px;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 3fr 3fr 3fr;
+  flex-direction: column;
+}
+@media (max-width: 1200px) {
+  .treatments-wrapper .overlay .treatmentsList-desktop {
+    grid-template-columns: 2fr;
+  }
+}/*# sourceMappingURL=Treatments.css.map */

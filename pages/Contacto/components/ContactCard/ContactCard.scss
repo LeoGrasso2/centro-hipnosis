@@ -1,0 +1,34 @@
+.contactCard-wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(120, 0, 186);
+    align-content: center;
+    width: 90%;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+
+    .contactCard-title{
+        font-size: 24px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .contactButton{
+        cursor: pointer;
+        color: white;
+        text-decoration: none;
+        margin-top: 20px;
+        padding: 15px;
+        display: flex;
+        max-width: max-content;
+        align-items: center;
+        border-radius: 5px;
+        background-color: green;
+
+        img{
+            max-width: 50px;
+            margin-right: 10px;
+        }
+    }
+}

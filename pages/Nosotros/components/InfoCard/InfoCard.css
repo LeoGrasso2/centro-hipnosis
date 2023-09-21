@@ -1,0 +1,50 @@
+.infoCard-wrapper {
+  display: flex;
+  background-color: rgb(121, 0, 186);
+  margin-top: 15px;
+  border-radius: 5px;
+  max-width: 1200px;
+}
+.infoCard-wrapper .infoCard-topside {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-image: url("./licenciadograsso.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.infoCard-wrapper .infoCard-topside .overlay {
+  display: flex;
+  justify-content: center;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  width: 100%;
+}
+.infoCard-wrapper .infoCard-content {
+  padding: 20px;
+}
+.infoCard-wrapper .infoCard-content .infoCard-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+.infoCard-wrapper .infoCard-content .infoCard-title .subTitle {
+  opacity: 0.75;
+  font-size: 16px;
+}
+.infoCard-wrapper .infoCard-content .infoCard-text {
+  margin-top: 10px;
+  color: white;
+}
+@media (max-width: 850px) {
+  .infoCard-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .infoCard-wrapper .infoCard-img {
+    max-width: -moz-max-content;
+    max-width: max-content;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}/*# sourceMappingURL=InfoCard.css.map */

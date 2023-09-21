@@ -1,0 +1,38 @@
+.contactwidget-wrapper{
+    display: flex;
+    width: max-content;
+    position: sticky;
+    margin-left: 10px;
+    bottom: 20px;
+    text-decoration: none;
+    
+    &:hover{
+
+        cursor: pointer;
+
+        .contactwidget-message{
+            opacity: 1;
+        }
+        
+    }
+
+    .contactwidget-message{
+        display: flex;
+        pointer-events: none;
+        user-select: none;
+        align-self: center;
+        margin-left: 10px;
+        justify-content: center;
+        color: white;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: #0d9f16;
+        opacity: 0;
+        transition: .3s;
+    }
+
+    img{
+        height: 75px;
+        width: 73px;
+    }
+}
