@@ -15,7 +15,7 @@ const Fees = () => {
               <div className="fee-description">
                 <ul>
                   <li>N.º de sesiones: 9</li>
-                  <li>Precio por sesión: $ 7.000 (evaluación previa $ 10.000.)</li>
+                
                   <li>Duración: 60 / 80 min.</li>
                   <li>Incluye anclaje HCA</li>
                 </ul>
@@ -26,7 +26,7 @@ const Fees = () => {
               <div className="fee-description">
                 <ul>
                   <li>N.º de sesiones: 7 / 9</li>
-                  <li>Precio por sesión: $ 7.000. (evaluación previa $ 9.000.)</li>
+                
                   <li>Duración: 60 / 80 min.</li>
                 </ul>
               </div>
@@ -36,7 +36,6 @@ const Fees = () => {
               <div className="fee-description">
                 <ul>
                   <li>N.º de sesiones: 6 / 9</li>
-                  <li>Precio por sesión: $ 7.000 (evaluación previa $ 9.000.)</li>
                   <li>Duración: 60 / 80 min.</li>
                   <li>+PLUS sesión grabada </li>
                 </ul>
@@ -47,7 +46,6 @@ const Fees = () => {
               <div className="fee-description">
                 <ul>
                   <li>N.º de sesiones: 6 / 9</li>
-                  <li>Precio por sesión: $ 7.000 (evaluación previa $ 9.000.)</li>
                   <li>Duración: 60 / 80 min.</li>
                   <li>+PLUS sesión grabada </li>
                 </ul>
@@ -58,7 +56,6 @@ const Fees = () => {
               <div className="fee-description">
                 <ul>
                   <li>N.º de sesiones: 4 / 6</li>
-                  <li>Precio por sesión: $ 7.000 (evaluación previa $ 9.000.)</li>
                   <li>Duración: 60 / 80 min.</li>
                   <li>+PLUS sesión grabada </li>
                 </ul>
@@ -69,7 +66,6 @@ const Fees = () => {
               <div className="fee-description">
                 <ul>
                   <li>N.º de sesiones: 6 / 9</li>
-                  <li>Precio por sesión: $ 7.000 (evaluación previa $ 9.000.)</li>
                   <li>Duración: 60 / 80 min.</li>
                   <li>+PLUS sesión grabada </li>
                 </ul>
@@ -80,7 +76,6 @@ const Fees = () => {
               <div className="fee-description">
                 <ul>
                   <li>N.º de sesiones: 4 / 6</li>
-                  <li>Precio por sesión: $ 7.000 (evaluación previa $ 9.000.)</li>
                   <li>Duración: 60 / 80 min.</li>
                   <li>+PLUS sesión grabada </li>
                 </ul>
@@ -91,7 +86,6 @@ const Fees = () => {
               <div className="fee-description">
                 <ul>
                   <li>N.º de sesiones: 4 / 6</li>
-                  <li>Precio por sesión: $ 7.000 (evaluación previa $ 9.000.)</li>
                   <li>Duración: 60 / 80 min.</li>
                   <li>+PLUS sesión grabada </li>
                 </ul>
