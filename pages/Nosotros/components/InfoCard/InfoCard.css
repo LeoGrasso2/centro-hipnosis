@@ -4,6 +4,7 @@
   margin-top: 15px;
   border-radius: 5px;
   max-width: 1200px;
+  margin-bottom: 20px;
 }
 .infoCard-wrapper .infoCard-topside {
   display: flex;
